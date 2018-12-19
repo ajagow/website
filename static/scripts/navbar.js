@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 
-          let menuIcon = document.querySelector('.menuIcon');
+        let menuIcon = document.querySelector('.menuIcon');
         let nav = document.querySelector('.overlay-menu');
 
         menuIcon.addEventListener('click', () => {

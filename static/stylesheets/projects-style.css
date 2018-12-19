@@ -165,8 +165,12 @@ body {
 .landscape {
   bottom: 0;
   position: absolute;
-  z-index: -1;
-  left: -550px;
+  z-index: -10;
+  width: 100vw;
+}
+
+.landscape img{
+  width: 100%;
 }
 
 .dark-back {

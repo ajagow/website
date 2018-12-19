@@ -114,6 +114,13 @@ $('#close-box').on('click', function(event) {
     
 });
 
+$('#goofy').on('click', function(event) {
+
+    $('.lightbox-target').removeClass("visible");
+        
+    
+});
+
 
 
 
