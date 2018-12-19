@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-    var reset = false;
 
 
 
@@ -15,10 +14,13 @@ $(document).ready(function(){
 
          if (bottom > (docHeight - 50)) {
               //$('#spacebro').addClass("fade");
-              reset = false;
               window.setTimeout(function(){$('#spacebro').addClass("fade");
                           $('.reset').addClass("fade-in");}, 800);
-            } 
+            } else {
+                $('#spaceship').removeClass("fade");
+                $('#spacebro').removeClass("fade");
+                $('.reset').removeClass("fade-in")
+            }
 
           
 
@@ -30,21 +32,66 @@ $(document).ready(function(){
               $('#spaceship').addClass("fade");
             } else {
               $('#spaceship').removeClass("fade");
-              if(reset) {
+
                 $('#spacebro').removeClass("fade");
-              }
             }
           
         });
 
     function resetState() {
-        reset = true;
+
 
         window.setTimeout(function(){
                     console.log("fade bro");
             $('.reset').removeClass("fade-in");
             $('#spacebro').removeClass("fade");} , 1000);
     }
+
+    // var reset = false;
+
+
+
+    // // // fade in animation
+    //   $(document).on("scroll", function () {
+    //     var pageTop = $(document).scrollTop();
+    //     var height = $(window).height();
+
+    //     var docHeight = $(document).height() + 199.35975;
+
+    //     var bottom = $('#spaceship').position().top+$('#spaceship').offset().top+$('#spaceship').outerHeight(true);
+
+    //      if (bottom > (docHeight - 50)) {
+    //           //$('#spacebro').addClass("fade");
+    //           reset = false;
+    //           window.setTimeout(function(){$('#spacebro').addClass("fade");
+    //                       $('.reset').addClass("fade-in");}, 800);
+    //         } 
+
+          
+
+
+
+
+
+    //     if (pageTop > .75 * height) {
+    //           $('#spaceship').addClass("fade");
+    //         } else {
+    //           $('#spaceship').removeClass("fade");
+    //           if(reset) {
+    //             $('#spacebro').removeClass("fade");
+    //           }
+    //         }
+          
+    //     });
+
+    // function resetState() {
+    //     reset = true;
+
+    //     window.setTimeout(function(){
+    //                 console.log("fade bro");
+    //         $('.reset').removeClass("fade-in");
+    //         $('#spacebro').removeClass("fade");} , 1000);
+    // }
 
     $('#reset-btn').on('click', function(event) {
         $("html, body").animate({scrollTop: 0}, 1000);
