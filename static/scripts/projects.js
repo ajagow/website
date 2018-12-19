@@ -15,7 +15,6 @@ $(document).ready(function(){
 
          if (bottom > (docHeight - 50)) {
               //$('#spacebro').addClass("fade");
-              console.log("hereee");
               reset = false;
               window.setTimeout(function(){$('#spacebro').addClass("fade");
                           $('.reset').addClass("fade-in");}, 800);

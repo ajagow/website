@@ -470,6 +470,11 @@ a.button-link:hover {
   top: 30px;
 }
 
+.header.long-name {
+  right: 25px;
+  top: 5px;
+}
+
 .section {
   z-index: 1;
 }
