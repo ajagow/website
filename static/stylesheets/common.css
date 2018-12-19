@@ -52,22 +52,26 @@ p {
 h1 {
   color: #FF8E90;
   font-size: 4rem;
+  margin-bottom: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
   color: #C6E2FF;
   font-size: 2.0rem;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h3 {
   color: #FCEEFF;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 p {
-  color: #454545;
+  color: #6b7c99;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -226,7 +230,7 @@ b {
 }
 
 #navbar li a {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #FF8E90;
   display: block;
   font-size: 1.2em;
