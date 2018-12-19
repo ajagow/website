@@ -1,0 +1,460 @@
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+
+
+.nav-item.active {
+  background-color: #f8f9fa!important;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+
+.float-next:hover, .float-back:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+]
+
+/* Fading animation */
+.fade-in {
+  opacity: 0;
+    -webkit-animation: fadein 2s forwards; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s forwards; /* Firefox < 16 */
+        -ms-animation: fadein 2s forwards; /* Internet Explorer */
+         -o-animation: fadein 2s forwards; /* Opera < 12.1 */
+            animation: fadein 2s forwards;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #970397;
+}
+
+.navbar-light .navbar-brand {
+    color: #4ABDAC;
+}
+
+h1 {
+  color: #FF8E90;
+  font-size: 4rem;
+}
+
+h2 {
+  color: #C6E2FF;
+  font-size: 2.0rem;
+}
+
+h3 {
+  color: #FCEEFF;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #454545;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+.c-p {
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.about-back {
+  background-image: url(../graphics/spaceman-landscape.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.clouds {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transition: bottom 1s ease-out;
+}
+
+.moon {
+  position: fixed;
+  right: -50px;
+  bottom: -100px;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+  z-index: -1;
+}
+
+
+
+
+
+.button-3 {
+  border: 2px solid #FF8E90;
+  background-color: #FF8E90;
+  color: #fff;
+  transition: .3s;
+  box-shadow: 8px 8px #99bdff;
+}
+
+.button-3:hover {
+  box-shadow: 0px 0px #99bdff;
+  transition: .3s;
+}
+
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.landscape {
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  left: -550px;
+}
+
+.dark-back {
+  background-color: #fceeff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 8px 8px #99bdff;
+}
+
+.col-md-6 img {
+  width: 100%;
+}
+
+.top {
+  top: 60px;
+    /* padding: 10px; */
+    margin-top: 10px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.col-md-4 p {
+  color: #f3c3c4;
+}
+
+.mt-10 {
+  margin-top: 40px;
+}
+
+
+.extra-bottom {
+  padding-bottom: 400px;
+}
+
+.btn-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.home-holder {
+  border: 2px solid #FF8E90;
+  background-color: #FF8E90;
+  color: #fff;
+  transition: .3s;
+  box-shadow: 8px 8px #99bdff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.home-holder:hover {
+  box-shadow: 0px 0px #99bdff;
+  transition: .3s;
+}
+
+.home-holder img {
+  height: 80%;
+  width:80%;
+}
+
+.home-holder h3 {
+  color: #FCEEFF
+}
+
+.home-holder p {
+  white-space: normal;
+  color: #3C4766;
+}
+
+#projects p {
+  color: #3c4766;
+}
+
+.tall {
+  height: calc(~"100vh - 70px");
+  min-height: 500px;
+}
+
+.spaceship {
+    position: fixed;
+    left: 100px;
+    bottom: 0;
+    z-index: -1;
+    width: 400px;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.spaceship.fade {
+  opacity: 1;
+}
+
+.spaceship img {
+  width: 100%;
+}
+
+.spacebro{
+    position: absolute;
+    left: 230px;
+    bottom: 0;
+    opacity: 1;
+    transition: all 2s ease-out;
+}
+
+.spacebro.fade {
+  opacity: 0;
+  bottom: 60px;
+}
+
+
+.spacebro img {
+  width: 100%;
+}
+
+.holder {
+  width: 100%;
+  margin: 0;
+}
+
+.reset {
+  position: absolute;
+  opacity: 0;
+  bottom: 40px;
+  left: 40px;
+  transition: opacity 1s ease-in;
+}
+
+.reset-info {
+  max-width: 170px;
+  border: 2px solid #c8e2f6;
+  background-color: #c8e2f6;
+  color: #3C4766;
+  box-shadow: 8px 8px #99bdff;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+
+}
+
+.reset-info p {
+  white-space: normal;
+}
+
+.reset.fade-in {
+  opacity: 1;
+}
+
+.button-3-outline {
+  border: 2px solid #99bdff;
+  /*background-color: #FF8E90;*/
+  color: #FF8E90;
+  /*transition: .3s;*/
+  /*box-shadow: 8px 8px #99bdff;*/
+  display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s 
+}
+
+#colorxflo {
+    background-color: #fae8fb;
+    border-color: #fae8fb;
+}
+
+#movies {
+  background-color: #f4ffee;
+  border-color: #f4ffee;
+
+}
+
+#animator {
+  background-color: #EEFFFD;
+  border-color: #EEFFFD;
+}
+
+#tabby {
+  background-color: #F0F0FF;
+  border-color: #F0F0FF;
+
+}
+
+#photos {
+  background-color: #ecc6c7;
+  border-color: #ecc6c7;
+}
+
+
+
+
+#colorxflo h3, #twod h3, #movies h3, #animator h3,
+#tabby h3, #photos h3 {
+  color: #FF8E90;
+}
+
+#twod {
+    background-color: #FFEFEE;
+    border-color: #FFEFEE;
+}
+
+.filler {
+  visibility: hidden!important;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .col-sm-4 {
+    margin-top: 20px;
+  }
+
+  .col-sm-6 {
+    margin-top: 20px;
+  }
+
+  .col-md-4, .col-md-6 {
+    margin-top: 20px;
+  }
+
+  .home-holder, .col-md-8{
+    width: 80%;
+  }
+
+  #icon-box {
+    width: 50%;
+  }
+
+ 
+}
+
+@media only screen and (min-width: 768px) {
+  .justify-content-center {
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
+  }
+
+  .spaceship {
+    left: -70px;
+  }
+
+  .spacebro {
+    left: 70px;
+  }
+
+  .reset {
+    left: 260px;
+  }
+
+ 
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  .moon {
+    opacity: .2;
+    right: -50px;
+  }
+
+  .col-md-4 {
+    padding-top: 15px;
+  }
+
+
+
+}
+
+
+
+
+
+
+

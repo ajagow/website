@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anika Jagow</title>
+	<link rel="shortcut icon" type="../static/graphics/anika.png" href="../static/graphics/anika.png"/>
+	<link rel="stylesheet" href="../static/stylesheets/bootstrap.min.css">
+		<link rel="stylesheet" href="../static/stylesheets/common.css">
+	<link rel="stylesheet" href="../static/stylesheets/projects-specific-style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../static/scripts/navbar.js"></script>
+	<script src="../static/scripts/project-specific.js"></script>
+
+
+
+<!-- Dkjflsdjfl -->
+<nav id="navbar" class="">
+  <div class="nav-wrapper">
+    <!-- Navbar Logo -->
+    <div class="logo">
+      <!-- Logo Placeholder for Inlustration -->
+       <a href="#home"><img src="../static/graphics/anika.png"></a>
+    </div>
+
+    <!-- Navbar Links -->
+    <ul id="menu">
+      <li><a href="../index.html">home.</a></li><!--
+   --><li><a href="../about.html">about.</a></li><!--
+   --><li><a href="../projects.html">projects.</a></li><!--
+   --><li><a href="../resume.pdf">resume.</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Menu Icon -->
+<div class="menuIcon">
+  <span class="icon icon-bars"></span>
+  <span class="icon icon-bars overlay"></span>
+</div>
+
+
+<div class="overlay-menu">
+  <ul id="menu">
+      <li><a href="../index.html">home.</a></li><!--
+   --><li><a href="../about.html">about.</a></li><!--
+   --><li><a href="../projects.html">projects.</a></li><!--
+   --><li><a href="../resume.pdf">resume.</a></li>
+    </ul>
+</div>
+</head>
+
+<body class="about-back">
+
+	<div class="container-fluid flex-column c-p centered top">
+
+		<div class="container">
+
+
+			<div class="row justify-content-center centered tall">
+
+				<div class="col-md-8 section">
+					<div id="projects" class="container dark-back">
+						<h1><u>movies and youtube.</u></h1>
+						<div class="button-3-outline header">fall 2018</div>
+
+
+						<p> A project for my DS4100 (Data Collection, Integration and Analysis) class where I tried to see if there is a connection between Youtube trailer views and movie revenue.
+						<br>
+						<br>
+
+						I was tasked with collecting and cleaning information and then building and evaluating predictive models. 
+						<br>
+						<br>
+
+						You can   <a href="https://youtu.be/tIEsQ0Qcs9M" target="_blank" class="btn button-link">watch me</a>   talk about my project in a 10 minute Youtube video or continue scrolling to find out more!
+						<br>
+						<br>
+
+					
+
+					
+						</p>
+						<div class="btn-holder">
+							<button id="process-btn" class="btn button-3">process.</button>
+							<button id="tools-btn" class="btn button-3">tools.</button>
+							
+
+						</div>
+					
+
+					</div>
+					
+				</div>
+			</div>
+
+						<!-- process -->
+			<div id="process-content" class="row mt-10 justify-content-center">
+
+				<div class="col-md-8 section">
+					<div id="projects" class="container peach-back">
+						<h2><b>process.</b></h2>
+						<p><u><strong>idea.</strong></u>  One of my hobbies is watching movie trailers on Youtube so I thought it would be cool to incorporate that into my project.</p>
+
+						<br>
+
+						<p><u><strong>data collection and cleaning.</strong></u>  I used TMDB (the movie database) API to get data on the top 200 movies currently trending.  In order to get the view count on Youtube, I had to write a python script that manually scraped the view count for each movie.  I then did some basic cleaning to make sure all the data followed the same format.</p>
+
+						<br>
+
+						<p><u><strong>building the models.</strong></u>  In R Studio, I built a few different multiple linear regression models to try and create a model that had the best R-Squared.
+						</p>
+
+						<br>
+						<p><u><strong>conclusion.</strong></u>  There was a very weak correlation (.32) between youtube trailer views and revenue.  Instead, I found that budget and number of votes were better predictors for a movie's revenue.
+
+						<br>
+
+		
+						<div class="next-btn-holder">
+							<button id="next-btn" class="btn button-3 next-btn">next step.</button>
+							
+
+						</div>
+					
+
+					</div>
+					
+				</div>
+
+
+			</div>
+
+			<!-- art -->
+
+			<div id="tools-content" class="row mt-10 justify-content-center extra-bottom">
+				<div class="col-md-8 section">
+					<div id="projects" class="container light-blue-back">
+						<h2><b>tools.</b></h2>
+						
+			
+						<div class="button-3-outline">Python</div>
+						<div class="button-3-outline">R</div>
+						<div class="button-3-outline">TMDB api</div>
+					
+						</p>
+						<div class="next-btn-holder">
+							<button id="next-btn" class="btn button-3 next-btn">next step.</button>
+							
+
+						</div>
+					
+
+					</div>
+					
+				</div>
+
+
+
+			</div>
+
+			
+
+
+		</div>
+
+		<div id="spaceship" class="spaceship fade">
+			<img src="../static/graphics/spaceship.png">
+		</div>
+
+		<div id="spacebro" class="spacebro fade-in">
+			<img src="../static/graphics/spacebro.png">
+		</div>
+
+		<div class="landscape">
+			<img src="../static/graphics/project-spec-land.png">
+		</div>
+		<div class="reset reset-info">
+			<p>thanks for the drop off :)<p>
+
+			<button id="reset-btn" class="btn button-3 reset-btn">reset.</button>
+		</div>
+
+		<div class="lightbox-target" id="goofy">
+		   <img id="box" src="../static/graphics/projects/colorxflo/1.png"/>
+		   <a id="close-box" class="lightbox-close"></a>
+		</div>
+
+		
+
+
+
+
+
+
+		
+	</div>
+
+
+
+
+</body>
+
+</html>
