@@ -165,9 +165,6 @@ body {
   width: 100vw;
 }
 
-.landscape img{
-  width: 100%;
-}
 
 .pale-back {
   background-color: #fceeff;
@@ -270,6 +267,12 @@ body {
   left: 160px;
 }
 
+@media only screen and (max-width: 540px) {
+  .landscape img {
+    width: 300%;
+  }
+}
+
 
 
 
@@ -303,6 +306,14 @@ body {
     padding-top: 15px;
   }
 
+
+
+}
+
+@media only screen and (min-width: 1920px) {
+  .landscape img{
+    width: 100%;
+  }
 
 
 }

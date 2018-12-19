@@ -169,9 +169,6 @@ body {
   width: 100vw;
 }
 
-.landscape img{
-  width: 100%;
-}
 
 .dark-back {
   background-color: #fceeff;
@@ -502,6 +499,10 @@ a.button-link:hover {
   .slide-line {
     width: 100px;
   }
+
+  .landscape img {
+    width: 300%;
+  }
 }
 
 
@@ -545,6 +546,14 @@ a.button-link:hover {
     left: 260px;
   }
 
+
+
+}
+
+@media only screen and (min-width: 1920px) {
+  .landscape img{
+    width: 100%;
+  }
 
 
 }
