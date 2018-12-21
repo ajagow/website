@@ -69,9 +69,38 @@ h3 {
   font-size: 1.5rem;
 }
 
-p {
+p, li {
   color: #6b7c99;
   font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.peach-back ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #3c4766; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ol li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative;
+}
+
+/* Output the numbers using the counter() function, but use a custom color, and position the numbers how we want */
+ol li:before {
+  color: #3c4766;
+  content: counter(list) ".";
+  left: -32px;
+  position: absolute;
+  text-align: right;
+  width: 26px;
 }
 
 body {
