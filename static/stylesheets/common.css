@@ -7,10 +7,22 @@
 
 }
 
+.btn {
+    font-family: 'Lato', sans-serif;
+}
+
 
 
 .nav-item.active {
   background-color: #f8f9fa!important;
+}
+
+.button-3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.button-3-outline {
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {

@@ -12,6 +12,7 @@
 
 
 
+
 .nav-item.active {
   background-color: #f8f9fa!important;
 }
@@ -120,6 +121,7 @@ body {
   color: #fff;
   transition: .3s;
   box-shadow: 8px 8px #99bdff;
+  font-family: 'Lato', sans-serif;
 }
 
 .button-3:hover {
@@ -270,6 +272,7 @@ body {
 
 .button-3-outline {
   border: 2px solid #99bdff;
+  font-family: 'Lato', sans-serif;
   /*background-color: #FF8E90;*/
   color: #FF8E90;
   /*transition: .3s;*/
