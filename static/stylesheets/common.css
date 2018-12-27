@@ -35,6 +35,10 @@ p {
 
 }
 
+u {
+  font-weight: bolder;
+}
+
 
 .float-next:hover, .float-back:hover {
   text-decoration: underline;
