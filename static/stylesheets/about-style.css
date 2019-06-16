@@ -16,7 +16,10 @@
   background-color: #f8f9fa!important;
 }
 
-
+#icon-box {
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -25,7 +28,7 @@
   color: black;
 }
 
-]
+
 
 /* Fading animation */
 .fade-in {
@@ -148,6 +151,9 @@ body {
 
 .col-md-6 img {
   width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  align-self: center;
 }
 
 .top {

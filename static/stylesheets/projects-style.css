@@ -27,7 +27,7 @@ p.thick {
   color: black;
 }
 
-]
+
 
 /* Fading animation */
 .fade-in {
@@ -70,6 +70,10 @@ body {
     to   { opacity: 1; }
 }
 
+#icon-box {
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -151,6 +155,9 @@ body {
 
 .col-md-6 img {
   width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  align-self: center;
 }
 
 .top {
@@ -184,8 +191,8 @@ body {
 }
 
 .home-holder {
-  border: 2px solid #FF8E90;
-  background-color: #FF8E90;
+  border: 2px solid #F0F0FF;
+  background-color: #F0F0FF;
   color: #fff;
   transition: .3s;
   box-shadow: 8px 8px #99bdff;
@@ -194,6 +201,7 @@ body {
   flex-direction: column;
   align-content: center;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 .home-holder:hover {
@@ -316,7 +324,7 @@ body {
     transition: color .15s 
 }
 
-#colorxflo {
+/* #colorxflo {
     background-color: #fae8fb;
     border-color: #fae8fb;
 }
@@ -336,12 +344,12 @@ body {
   background-color: #F0F0FF;
   border-color: #F0F0FF;
 
-}
+} */
 
-#photos {
+/* #photos {
   background-color: #ecc6c7;
   border-color: #ecc6c7;
-}
+} */
 
 
 

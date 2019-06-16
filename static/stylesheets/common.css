@@ -121,6 +121,7 @@ ol li:before {
 
 body {
   overscroll-behavior-y: none;
+  background-color: #3b4766;
 }
 
 a {
