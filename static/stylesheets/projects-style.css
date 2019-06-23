@@ -202,6 +202,7 @@ body {
   align-content: center;
   align-items: center;
   margin-bottom: 2em;
+  max-width: 300px;
 }
 
 .home-holder:hover {
