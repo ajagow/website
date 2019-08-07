@@ -94,7 +94,7 @@ ul {
   list-style: none; /* Remove default bullets */
 }
 
-.peach-back ul li::before {
+.peach-back ul li::before, .dark-back ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #3c4766; /* Change the color */
   font-weight: bold; /* If you want it to be bold */

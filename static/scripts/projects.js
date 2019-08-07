@@ -133,7 +133,7 @@ $('#coding-btn').on('click', function(event) {
 
 $('#random-btn').on('click', function(event) {
     var pages = ['projects/colorxflo.html', 'projects/animator.html', 'projects/2d.html',
-    'projects/movies.html', 'projects/tabby.html'];
+    'projects/movies.html', 'projects/tabby.html', 'projects/thoughtexchange.html'];
 
     var page = pages[Math.floor(Math.random()*pages.length)];
 
